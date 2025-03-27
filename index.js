@@ -32,6 +32,12 @@ let searchOutcome = arr5.includes(word) ? word : "the search word not found";
 console.log({searchOutcome});
 
 //6
+let str = "renniw";
+let sortStr = str.split("").sort().join("");
+console.log({sortStr});
+
+
+//7
 const fruits =["apple","cherry","banana","orange","strawberry","mango","kiwi","pear","Avocado","passion"];
 let newFruit ="tomato";
 let index = 5;
