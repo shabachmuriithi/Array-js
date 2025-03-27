@@ -1,7 +1,5 @@
 //1
 const arr1 = [3,7,34,90,12];
-const lastElement =arr1[arr1.length - 1];
-console.log({lastElement});
 const lastElement2 =arr1.at(-1);
 console.log({lastElement2});
 
